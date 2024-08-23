@@ -1,0 +1,58 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="UIInventoryItem">
+			<method name="OnBeginDrag"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnDrop"/>
+			<method name="OnDrop"/>
+			<method name="OnDrop"/>
+			<method name="OnDrop"/>
+			<method name="OnEndDrap"/>
+			<method name="OnEndDrap"/>
+			<method name="OnEndDrap"/>
+			<method name="OnEndDrap"/>
+			<method name="OnPointerClick"/>
+			<method name="OnPointerClick"/>
+			<method name="OnPointerClick"/>
+			<method name="OnPointerClick"/>
+		</type>
+	</assembly>
+	<assembly fullname="com.solana.unity_sdk" ignoreIfMissing="1">
+		<type fullname="Solana.Unity.SDK.WalletAdapterButton">
+			<method name="OnSelected"/>
+		</type>
+		<type fullname="Solana.Unity.SDK.WalletAdapterScreen">
+			<method name="OnClose"/>
+		</type>
+		<type fullname="Solana.Unity.SDK.Web3">
+			<method name="LoginWithWalletAdapter"/>
+			<method name="LoginWithWalletAdapter"/>
+			<method name="LoginWithWalletAdapter"/>
+			<method name="LoginWithWalletAdapter"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
